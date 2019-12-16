@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ox.BizTalk.BAM", "Ox.BizTalk.BAM\Ox.BizTalk.BAM.csproj", "{BF035B1D-A0B3-42A5-B1D1-60D8B9319F26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ox.BizTalk.BAM.OrchestrationStream", "Ox.BizTalk.BAM.OrchestrationStream\Ox.BizTalk.BAM.OrchestrationStream.csproj", "{CD52255A-00E7-4E7F-8B47-A5B65BAE0A49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6EFF8E9-5F20-4DA1-9EA4-98A080A1C412}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF035B1D-A0B3-42A5-B1D1-60D8B9319F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF035B1D-A0B3-42A5-B1D1-60D8B9319F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF035B1D-A0B3-42A5-B1D1-60D8B9319F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF035B1D-A0B3-42A5-B1D1-60D8B9319F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD52255A-00E7-4E7F-8B47-A5B65BAE0A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD52255A-00E7-4E7F-8B47-A5B65BAE0A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD52255A-00E7-4E7F-8B47-A5B65BAE0A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD52255A-00E7-4E7F-8B47-A5B65BAE0A49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05AADBE1-78CF-4664-A424-DC642F42EEC2}
+	EndGlobalSection
+EndGlobal

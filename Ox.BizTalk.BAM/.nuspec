@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<!-- Required elements-->
+		<id>Ox.BizTalk.BAM.Framework</id>
+		<version>$version$</version>
+		<description>
+			Typed Framework for BizTalk BAM API. Quickly implement BAM activities as a typed POCO class.
+			Requires Microsoft BizTalk Server to be installed.
+		</description>
+		<authors>Dash</authors>
+		<projectUrl>https://github.com/Dash/Ox.BizTalk.BAM.Framework</projectUrl>
+		<license type="expression">MIT</license>
+		<releaseNotes>v1.0.0 - Initial release</releaseNotes>
+		<copyright>$copyright$</copyright>
+		<tags>biztalk bam api</tags>
+		<repository type="git" url="https://github.com/Dash/Ox.BizTalk.BAM.Framework.git" branch="master" />
+		<title>Typed framework for BizTalk BAM API</title>
+		<packageTypes>
+			<packageType name="Dependency"/>
+		</packageTypes>
+		<frameworkAssemblies>
+			<frameworkAssembly assemblyName="System" />
+			<frameworkAssembly assemblyName="Microsoft.BizTalk.Bam.EventObservation" />
+		</frameworkAssemblies>
+
+		<!-- Optional elements -->
+		<!-- ... -->
+	</metadata>
+	<!-- Optional 'files' node -->
+	<files>
+		<file src="bin\$configuration$\Ox.BizTalk.BAM.Framework.dll" target="lib" />
+		<file src="bin\$configuration$\Ox.BizTalk.BAM.Framework.pdb" target="lib" />
+	</files>
+</package>
