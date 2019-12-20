@@ -11,7 +11,7 @@
 		<authors>Dash</authors>
 		<projectUrl>https://github.com/Dash/Ox.BizTalk.BAM.Framework</projectUrl>
 		<license type="expression">MIT</license>
-		<releaseNotes>v1.0.0 - Initial release</releaseNotes>
+		<releaseNotes>v1.0.1 - Fixed ActivityId not being set with non-generic factory</releaseNotes>
 		<copyright>$copyright$</copyright>
 		<tags>biztalk bam api</tags>
 		<repository type="git" url="https://github.com/Dash/Ox.BizTalk.BAM.Framework.git" branch="master" />
