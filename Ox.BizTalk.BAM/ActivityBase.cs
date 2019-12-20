@@ -145,18 +145,10 @@ namespace Ox.BizTalk.BAM
 						// If the value is default, then set it to null
 						if(fieldValue != null && bamField.NullifyDefaultValues)
 						{
-							try
+							// If value types match defaults
+							if (prop.PropertyType.IsValueType && fieldValue.Equals(Activator.CreateInstance(prop.PropertyType)))
 							{
-								// If value types match defaults
-								if (prop.PropertyType.IsValueType && fieldValue.Equals(Activator.CreateInstance(prop.PropertyType)))
-								{
-									fieldValue = null;
-								}
-							}
-							catch(MissingMethodException)
-							{
-								// Can't create instances of things like strings because they have a constructor
-								// Swallow these up
+								fieldValue = null;
 							}
 						}
 					}

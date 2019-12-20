@@ -96,6 +96,8 @@ namespace Ox.BizTalk.BAM
 		{
 			if (!typeof(ActivityBase).IsAssignableFrom(activityType)) throw new ArgumentException("Supplied type must be derived from ActivityBase.");
 
+			CheckActivityId(ref activityId);
+
 			ActivityBase activity = (ActivityBase) Activator.CreateInstance(activityType);
 			InitialiseActivity(activity, eventStreamMediator, activityId);
 			return activity;
