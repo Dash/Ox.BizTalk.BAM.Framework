@@ -72,6 +72,16 @@ The above examples use automatically generated Activity Ids, but if you're worki
 ## Cleaning up
 As most of the event streams supplied by BizTalk implement IDisposable, so does this.  You can either call .Dispose() on your activity, or wrap it up in a using() statement.
 
+# Bundled Example
+The included example shows you a simple implementation of the BAM API with the accompanying Excel workbook.
+It is not intended to be a tutorial on how to use BAM full stop, just how to use this framework.  You will need a preexisting understanding in how to use BAM.
+
+1. Deploy the BAM Activity from the spreadsheet  
+```bm deploy-all -DefinitionFile:ExampleWorkbook.xml```
+2. Ensure the user you are executing the example under has BAM_EVENT_WRITER role in the BAMPrimaryImport database
+3. Run the Program
+4. Verify data has arrived in the BAM database (or portal if you setup a view of your own)
+
 # Copyright
 
 Copyright © 2019. Alastair Grant.
